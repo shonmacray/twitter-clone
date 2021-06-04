@@ -1,4 +1,12 @@
 h1,h2,h3,h4,h5, p,strong,span{
     margin: 0;
     padding: 0;
+    color: #101419;
 }
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+

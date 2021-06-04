@@ -1,4 +1,3 @@
-import { Twitter } from "@material-ui/icons";
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SideBar from "./SideBar";
@@ -9,8 +8,7 @@ export default function AppStack() {
       <Switch>
         <Route path='/'>
           <div className='container px-5 d-flex'>
-            <div className='w-25 pt-3'>
-              <Twitter style={{ fontSize: "30px" }} />
+            <div className='w-25 pt-3' style={{  height: "100vh"  }}>
               <SideBar />
             </div>
             <div className='w-75'>

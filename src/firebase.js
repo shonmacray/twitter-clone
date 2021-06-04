@@ -10,3 +10,6 @@ export const base = firebase.initializeApp({
   appId: process.env.REACT_APP_APPID,
   measurementId: process.env.REACT_APP_MEASUREMENTID,
 });
+
+export const fire = firebase;
+
